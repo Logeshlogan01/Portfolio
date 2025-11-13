@@ -118,7 +118,7 @@ const Footer = () => {
             },
             {
               icon: Linkedin,
-              href: "https://www.linkedin.com/in/logeshwaran-renganathan",
+              href: "https://www.linkedin.com/in/logeshwaran-renganathan-98a047296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
               color: "hover:text-blue-400",
               bgColor: "hover:bg-blue-500/20",
               label: "LinkedIn"
