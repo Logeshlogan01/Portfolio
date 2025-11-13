@@ -12,7 +12,7 @@ function App() {
       title: "Sign Language Recognition",
       description: "AI-powered sign language recognition system using computer vision and machine learning to bridge communication gaps for the hearing impaired community.",
       technologies: ["Python", "OpenCV", "TensorFlow", "MediaPipe", "Deep Learning"],
-      demoLink: "#",
+      demoLink: "/sign.png",
       githubLink: "https://github.com/Logeshlogan01/sign-language-recognition"
     },
     {
@@ -28,16 +28,16 @@ function App() {
       title: "Carrer-Campus (React + Node.js)",
       description: "Platform connecting students through events, scholarships, and opportunities. Facilitates campus networking and career development resources.",
       technologies: ["React", "Node.js", "PostgreSQL", "Socket.io", "REST APIs"],
-      demoLink: "#",
-      githubLink: "#"
+      demoLink: "/ccmain.jpg",
+      githubLink: "https://github.com/Logeshlogan01/Carrer-Campus"
     },
     {
       id: 4,
       title: "CareNet - Hospital Management",
       description: "Android application for hospital management with patient records, appointment scheduling, and medical staff coordination features.",
       technologies: ["Java", "Android Studio", "Firebase", "SQLite", "REST APIs"],
-      demoLink: "#",
-      githubLink: "#"
+      demoLink: "myhealth.png",
+      githubLink: "https://github.com/Logeshlogan01/CareNet"
     }
   ];
 
