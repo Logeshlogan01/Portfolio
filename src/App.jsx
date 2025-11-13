@@ -20,7 +20,7 @@ function App() {
       title: "Quick Hire - Full Stack",
       description: "Doorstep platform connecting skilled laborers with local job opportunities. Features real-time booking, location services, and secure payments.",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      demoLink: "https://quickhire-zeta.vercel.app/index.html",
+      demoLink: "https://quickhire-kmdi.vercel.app",
       githubLink: "https://github.com/Logeshlogan01/Quick-hire"
     },
     {
