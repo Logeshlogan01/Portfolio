@@ -132,7 +132,7 @@ const Footer = () => {
             },
             {
               icon: Phone,
-              href: "tel:+91-1234567890",
+              href: "tel:+91-7540050874",
               color: "hover:text-green-400",
               bgColor: "hover:bg-green-500/20",
               label: "Call Me"
