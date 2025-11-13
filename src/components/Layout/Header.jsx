@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
 
 const Header = () => {
-  const navItems = ["Work", "Skills", "Contact"];
+  const navItems = [
+    { name: "Work", href: "#projects" },
+    { name: "Skills", href: "#skills" },
+    { name: "Contact", href: "#contact" }
+  ];
 
   return (
     <motion.nav
@@ -25,8 +29,8 @@ const Header = () => {
           <div className="flex gap-6">
             {navItems.map((item, index) => (
               <motion.a
-                key={item}
-                href={`#${item.toLowerCase()}`}
+                key={item.name}
+                href={item.href}
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 + index * 0.1 }}
@@ -37,7 +41,7 @@ const Header = () => {
                 whileTap={{ scale: 0.95 }}
                 className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
               >
-                {item}
+                {item.name}
               </motion.a>
             ))}
           </div>
