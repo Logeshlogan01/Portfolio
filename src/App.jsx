@@ -36,18 +36,27 @@ function App() {
       title: "CareNet - Hospital Management",
       description: "Android application for hospital management with patient records, appointment scheduling, and medical staff coordination features.",
       technologies: ["Java", "Android Studio", "Firebase", "SQLite", "REST APIs"],
-      demoLink: "myhealth.png",
+      demoLink: "/myhealth.png",
       githubLink: "https://github.com/Logeshlogan01/CareNet"
+    },
+    {
+      id: 5,
+      title: "Blog Site - MERN Stack",
+      description: "Full-stack blogging platform with user authentication, CRUD operations, and responsive design. Created as a mini project for internship.",
+      technologies: ["React", "Node.js", "MongoDB", "JWT", "REST APIs"],
+      demoLink: "/blog-site.png",
+      githubLink: "https://github.com/Logeshlogan01/blog-site"
     }
   ];
 
   // Skills Data
   const skills = {
-    "Frontend": ["React", "JavaScript", "HTML/CSS", "Tailwind CSS", "Android Java"],
-    "Backend": ["Node.js", "Express", "Python", "REST APIs", "Error handling-Debugging"],
-    "Database": ["MongoDB", "PostgreSQL", "Firebase", "SQLite"],
-    "AI/ML": ["TensorFlow", "OpenCV", "Computer Vision", "Deep Learning"],
-    "Tools": ["Git", "Android Studio", "VS Code", "Figma", "Postman"]
+    "Frontend": ["React", "JavaScript", "TypeScript", "HTML5/CSS3", "Tailwind CSS", "Bootstrap"],
+    "Backend": ["Node.js", "Express", "Python", "REST APIs", "Authentication", "Middleware"],
+    "Database": ["MongoDB", "PostgreSQL", "Firebase", "SQLite", "Mongoose"],
+    "Mobile Development": ["Android Java", "React Native", "Firebase"],
+    "AI/ML": ["TensorFlow", "OpenCV", "Computer Vision", "Deep Learning", "MediaPipe"],
+    "Tools & Technologies": ["Git", "GitHub", "Android Studio", "VS Code", "Figma", "Postman", "Vercel"]
   };
 
   return (
